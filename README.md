@@ -23,6 +23,8 @@ Web Development: Frameworks like Django and Flask.
 Data Science and Machine Learning: Libraries like Pandas, NumPy, and scikit-learn.
 Automation and Scripting: Automating repetitive tasks.
 Scientific Computing: Libraries like SciPy and Matplotlib.
+
+
 2. Installing Python:
 Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
 
@@ -38,6 +40,7 @@ Write a simple Python program that prints "Hello, World!" to the console. Explai
 print("Hello, World!")
 print: Function used to output text to the console.
 "Hello, World!": String literal enclosed in double quotes.
+
 4. Data Types and Variables:
 List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
 
@@ -50,7 +53,7 @@ bool: Boolean values (True, False).
 list: Ordered, mutable collections (e.g., [1, 2, 3]).
 dict: Key-value pairs (e.g., {"key": "value"}).
 
-# Variables of different data types
+Variables of different data types
 num = 10           # int
 pi = 3.14          # float
 name = "Alice"     # str
@@ -59,6 +62,8 @@ numbers = [1, 2, 3]  # list
 person = {"name": "Bob", "age": 25}  # dict
 
 print(num, pi, name, is_valid, numbers, person)
+
+
 5. Control Structures:
 Explain the use of conditional statements and loops in Python. Provide examples of an if-else statement and a for loop.
 
@@ -75,6 +80,8 @@ for loop:
 
 for i in range(5):
     print(i)
+
+
 6. Functions in Python:
 What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
 
@@ -83,24 +90,27 @@ Functions are reusable blocks of code that perform a specific task. They are use
 def add(a, b):
     return a + b
 
-# Example of calling the function
+Example of calling the function
 result = add(3, 5)
-print(result)  # Output: 8
+print(result)   Output: 8
+
 7. Lists and Dictionaries:
 Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
 
 Lists: Ordered, mutable collections accessed by index.
 Dictionaries: Unordered, mutable collections accessed by keys.
 
-# List
+List
 numbers = [1, 2, 3, 4, 5]
 numbers.append(6)  # Adding an element
 print(numbers)
 
-# Dictionary
+Dictionary
 person = {"name": "Alice", "age": 30}
 person["city"] = "New York"  # Adding a key-value pair
 print(person)
+
+
 8. Exception Handling:
 What is exception handling in Python? Provide an example of how to use try, except, and finally blocks to handle errors in a Python script.
 
@@ -112,6 +122,8 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 finally:
     print("Execution completed.")
+
+
 9. Modules and Packages:
 Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the math module.
 
@@ -123,6 +135,8 @@ import math
 
 result = math.sqrt(16)
 print(result)  # Output: 4.0
+
+
 10. File I/O:
 How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
 
